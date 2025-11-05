@@ -21,4 +21,4 @@ Click on the copy button to copy each command! ⬇️
 ## 🛠 Upload a `windows10.yml`
 Use the following command:
 
-<pre><code>sudo docker-compose -f windows10.yml up</code></pre>
+<pre><code>sudo docker-compose -f windows11.yml up</code></pre>
