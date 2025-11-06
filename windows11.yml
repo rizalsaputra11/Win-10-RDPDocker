@@ -4,10 +4,10 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-      USERNAME: "PUSHPRAJXP"
+      USERNAME: "razzdev"
       PASSWORD: "admin@123"
-      RAM_SIZE: "7G"
-      CPU_CORES: "88"
+      RAM_SIZE: "32G"
+      CPU_CORES: "64"
       DISK_SIZE: "800G"
       DISK2_SIZE: "400G"
     devices:
@@ -20,4 +20,5 @@ services:
       - "3389:3389/tcp"
       - "3389:3389/udp"
     stop_grace_period: 2m
+
 
